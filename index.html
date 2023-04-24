@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Codo a Codo</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-md navegador nav-container">
+            <div class="container-fluid div-container-nav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MenuNavegacion" aria-controls="MenuNavegacion" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="div-nav navbar-brand">
+                <img src="./img/codoacodo.png" class="logo">
+                <h4>Conf Bs As</h4>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end nav__ul" id="MenuNavegacion">
+                <ul class="navbar-nav ms-3 nav-ul">
+                <li class="nav-li">La conferencia</li>
+                <li class="nav-li">Los oradores</li>
+                <li class="nav-li">Lugar y fecha</li>
+                <li class="nav-li">conviertete en orador</li>
+                <li class="nav-li">Comprar Tickets</li>
+                </ul>                     
+            </div>
+            </div>
+        </nav>
+    </header>          
+    <main>
+        <section class="section-1">
+            <div class="div-section-1">
+                <div class="div-title">
+                    <h4 class="div-h4">Conf Bs As</h4>
+                </div>
+                <div class="div-p">
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus cupiditate repudiandae, tempore maxime sequi et? Suscipit officia aliquid architecto ipsam optio laboriosam. Modi neque doloribus similique, officiis ratione corporis reiciendis.</p>
+                </div>
+                <div class="div-button">
+                    <button class="btn-1">Quiero Ser Orador</button>
+                    <button class="btn-2">Comprar Tickets</button>
+                </div>
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="card div-card" style="width: 18rem;">
+                <img src="./img/ivanm.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Iván Maidana</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card div-card" style="width: 18rem;">
+                <img src="./img/bill.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bill Gates</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card div-card" style="width: 18rem;">
+                <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ada Lovelace</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section-3">
+            <div class="div-section-3">
+                <div id="carouselExampleControls" class="carousel slide  div-carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="./img/hawaii.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="./img/hawaii2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="./img/hawaii3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="info-carousel">
+                    <h4 class="info-h4">Bs As - Octubre</h4>
+                    <p class="info-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, magnam exercitationem dolore, eos officia quos sint harum, labore minus eveniet vel? Molestiae adipisci, totam praesentium aperiam sunt alias optio delectus.</p>
+                    <a class="info-a">Conoce Más</a>
+                </div>
+            </div>
+        </section>
+        <section class="section-4">
+            <div class="div-orador">
+                <h4>convertite en un orador</h4>
+                <p>Convertite en un orador</p>
+            </div>
+            <form class="section-form">
+                <div class="form-group">
+                  <label for="nombre"></label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí">
+                </div>
+                
+                <div class="form-group">
+                  <label for="apellido"></label>
+                  <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Escribe tu apellido aquí">
+                </div>
+                
+                <div class="form-group">
+                  <label for="mensaje"></label>
+                  <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí" rows="10"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+        </section>
+        <footer class="footer">
+            <ul class="ul-footer">
+                <li class="li-footer">Preguntas frecuentes</li>
+                <li class="li-footer">Contáctanos</li>
+                <li class="li-footer">Prensa</li>
+                <li class="li-footer">Conferencias</li>
+                <li class="li-footer">Términos y condiciones</li>
+                <li class="li-footer">Privacidad</li>
+                <li class="li-footer">Estudientes</li>
+            </ul>
+        </footer>
+    </main>    
+</body>
+</html>
